@@ -12,3 +12,9 @@
     opacity: 0.6;
     margin-bottom: 12px;
 }
+
+.friends__friend {
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+}
