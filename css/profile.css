@@ -1,0 +1,67 @@
+.profile-body {
+    background-image: url("C:/Users/hoyeon/Documents/GitHub/kokoa-clone-v2/images/profileBg.png");
+    background-size: cover;
+    overflow: hidden;
+}
+
+.profile-header__header-column  {
+    color: gainsboro;
+}
+
+.profile-header__icon {
+    border: 1px solid gainsboro;
+    border-radius: 50%;
+    padding: 8px;
+    color: gainsboro;
+    margin-left: 20px;
+}
+
+.profile-main {
+    height: 100%;
+    width: 100%;
+}
+
+.profile-photo {
+    margin-top: 450px;
+}
+
+.profile-photo-object {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 125px;
+    width: 125px;
+    border-radius: 40%;
+}
+
+.profile-name {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+    align-items: center;
+}
+
+.profile-list {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 25px;
+    color: white;
+    margin-top: 100px;
+    border-top: 1px solid gray;
+
+}
+
+.profile__header-btn {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   align-items: center;
+   cursor: pointer;
+}
+
+.profile-btn__title {
+    padding-top: 10px;
+}
