@@ -1,16 +1,23 @@
 @import "reset.css";
 
-.status-bar {
+@supports (position: sticky) or (position: -webkit-sticky) {
+  .status-bar {
+    top: 0px;
+    padding: 10px 10px;
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
-   color: #656565;
+    color: #656565;
+    position: sticky;
+    position: -webkit-sticky;
+    background-color: white;
+  }
 }
 
 .status-bar i {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 .status-bar .status-bar__battery-level {
-    margin-left: 5px;
+  margin-left: 5px;
 }
